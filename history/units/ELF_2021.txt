@@ -1,0 +1,61 @@
+division_template = {
+	name = "Test"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 
+        engineer = { x = 0 y = 2 } 		
+	}
+}
+division_template = {
+	name = "Partizabe"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		
+	}
+	support = {
+
+	}
+}
+units = {
+	division = {
+		#name = "Maymeneh Militia"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3000
+		division_template = "Test"
+		start_equipment_factor = 1.0
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ELF"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

@@ -1,0 +1,30 @@
+bookmarks = {
+	bookmark = {
+		name = "START_NAME"
+		desc = "START_DESC"
+		date = 2021.1.1.12
+		picture = "GFX_select_date_2021"
+		default_country = "ELF"
+		default = yes		
+		"ELF"={
+			history = "ELF_DESC_2021"
+			ideology = collectivism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}		
+		"RNR"={
+			history = "RNR_DESC_2021"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}		
+	}
+}

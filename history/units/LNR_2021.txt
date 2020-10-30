@@ -1,0 +1,85 @@
+division_template = {
+	name = "Nardnii otrad"		# Основной тип - партизанский отряд
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }		
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Moto-Tank polk"		# Мото-Танковый отряд ()
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+units = {
+	#Мото-танковые
+	
+		division = { 	
+			name = "3 TANK-inf division"
+			location = 570 # Edinburgh
+			division_template = "Moto-Tank polk"
+			start_experience_factor = 0.0   #optional, otherwise starts with 0 expereince
+			start_equipment_factor = 0.6    #optional, otherwise starts with equipment factor of 1 (maximum)
+		} 
+		
+	   #Бомжатские
+	   division = { 	
+		name = "1st Povstnickii"
+		location = 6505 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.7   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.5    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+	division = { 	
+		name = "2st Povstaneckii Imeni Zaharchenco"
+		location = 11487 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.5   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.4    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+	division = { 	
+		name = "3st Povstaneckii"
+		location = 6505 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.4   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.35    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+	division = { 	
+		name = "4st Povstaneckii"
+		location = 9446 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.5    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+	division = { 	
+		name = "5st Povstaneckii"
+		location = 547 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.0   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.53    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+	division = { 	
+		name = "6st Povstaneckii"
+		location = 523 # Edinburgh
+		division_template = "Nardnii otrad"
+		start_experience_factor = 0.4   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.51    #optional, otherwise starts with equipment factor of 1 (maximum)
+	} 
+}

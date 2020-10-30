@@ -1,0 +1,163 @@
+add_namespace = pavu
+###Новостной эвент по АТО на территории южного Крыма
+news_event={
+	id = pavu.1
+	title = pavu.1.t
+	desc = pavu.1.d
+	picture = GFX_AYE
+	#fire_only_once = yes
+	
+	is_triggered_only = yes
+	major = yes
+	
+	immediate = { 
+		UKR = { 
+		has_war_with = CRM
+		}
+	}
+	
+	option = {
+		name = pavu.1.a
+		trigger = {	
+			NOT =
+			{
+			TAG = UKR
+			}
+        		
+			}
+		}
+		
+		option = {
+			name = pavu.1.b
+			trigger = {
+			TAG = UKR		
+			}
+		}			
+}
+###Украинский выбор по АТО на Крыме
+country_event={
+	id = pavu.2
+	title = pavu.2.t
+	desc = pavu.2.d
+	picture = AYE
+	fire_only_once = yes
+	major = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+	name = pavu.2.a 
+	ai_chance = {factor = 80}
+	trigger = {}
+	declare_war_on = {
+    target = CRM
+	type = take_state_focus
+	generator = { 818 819 }
+	set_victory_points = {
+		province = 3686
+		value = 3  
+		}
+	}
+	hidden_effect = {			
+			news_event = { days = 1 id = pavu.1 }
+		}
+	}
+#	option = {
+#	name = pavu.2.b 
+#	ai_chance = {factor = 20}
+#	trigger = {}
+#	create_wargoal = {
+#    type = take_state_focus
+#	target = CRM
+#	generator = { 818 819 }
+#		}
+	#}
+}	
+###АТО на территории востока
+country_event = {
+	id = pavu.3
+	title = pavu.3.t
+	desc = pavu.3.d
+	picture = AYE
+	fire_only_once = yes
+	major = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+	name = pavu.3.a 
+	ai_chance = {factor = 80}
+	trigger = {}
+	declare_war_on = {
+    target = LNR
+	type = take_state_focus
+	generator = { 228 816 }
+	}
+	declare_war_on = {
+    target = DNR
+	type = take_state_focus
+	generator = { 227 815 }
+	}	
+		hidden_effect = {			
+			news_event = { days = 1 id = pavu.4 }
+			DNR = {
+				remove_from_faction = LNR
+				dismantle_faction = yes			
+				  }
+		}
+	}
+	#option = {
+	#name = pavu.3.b 
+	#ai_chance = {factor = 20}
+	#trigger = {}
+	#create_wargoal = {
+    #type = take_state_focus
+	#target = DNR
+	#generator = { 227 815 }
+	#	}
+	#	create_wargoal = {
+    #type = take_state_focus
+	#target = LNR
+	#generator = { 228 816 }
+	#	}
+	#}
+}
+###Новостной ивент по АТО на территории востока
+news_event={
+	id = pavu.4
+	title = pavu.4.t
+	desc = pavu.4.d
+	picture = GFX_AYE
+	#fire_only_once = yes
+	
+	is_triggered_only = yes
+	major = yes
+	
+	immediate = { 
+		UKR = { 
+		has_war_with = DNR
+		has_war_with = LNR
+		}
+	}
+	
+	option = {
+		name = pavu.4.a
+		trigger = {	
+			NOT ={
+				TAG = UKR
+				}        		
+			}
+		}
+		
+		option = {
+			name = pavu.4.b
+			trigger = {
+			TAG = UKR		
+			}
+		}			
+}

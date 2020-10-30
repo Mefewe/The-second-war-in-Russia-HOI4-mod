@@ -1,0 +1,68 @@
+division_template = {
+	name = "Bidlo"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+
+	}
+}
+units = {
+	division = { 	
+		name = "1st Bidlanskii otrad"
+		location = 3686 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.9    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "2st Bidlanskii otrad"
+		location = 3686 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.7    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "3st Bidlanskii otrad"
+		location = 3686 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.76    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "4st Bidlanskii otrad"
+		location = 3686 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.9    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "5st Bidlanskii otrad"
+		location = 9680 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.6    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "6st Bidlanskii otrad"
+		location = 6706 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.31    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "7st Bidlanskii otrad"
+		location = 6706 # Edinburgh
+		division_template = "Bidlo"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.87    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+}

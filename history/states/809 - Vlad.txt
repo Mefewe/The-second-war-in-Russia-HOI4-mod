@@ -1,0 +1,35 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 1041465
+	resources={
+		chromium=7 # was: 28
+		steel=5
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = ELF	
+		victory_points = {
+			957 20
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 5
+			industrial_complex = 3 
+			arms_factory = 4
+			957 = {
+				naval_base = 8
+				coastal_bunker = 6
+			}
+		}
+		add_core_of = ELF
+	}
+
+	provinces={
+		957
+	}
+}

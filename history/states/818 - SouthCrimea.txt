@@ -1,0 +1,39 @@
+state={
+	id=818
+	name="STATE_818"
+	manpower = 1061607
+	
+	state_category = city
+
+	history={
+		owner = CRM
+		
+		victory_points = {
+			9680 1
+		}
+		victory_points = {
+			6704 1
+		}
+		buildings = {
+			infrastructure = 8
+			dockyard = 3
+			synthetic_refinery = 1 
+			fuel_silo  = 2
+			industrial_complex =1
+			arms_factory       =1
+			air_base = 4
+			
+			9680 ={
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = CRM		
+		add_core_of = UKR
+		}
+	
+
+	provinces={
+		 6704 9677 9680
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=815
+	name="STATE_815" # Voroshilovgrad
+	manpower = 2167411
+	buildings_max_level_factor = 55
+	state_category = city
+
+	history={
+		owner = DNR
+		victory_points = {
+			6474 20
+		}
+		buildings = {
+		fuel_silo = 10
+		industrial_complex = 10
+		arms_factory = 15
+			infrastructure = 5
+		}
+		add_core_of = DNR
+		add_core_of = UKR
+	}
+
+	provinces={
+		6474
+	}
+}

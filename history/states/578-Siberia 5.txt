@@ -1,0 +1,28 @@
+
+state={
+	id=578
+	name="STATE_578" # Tomsk
+	manpower = 609304
+	
+	state_category = city
+buildings_max_level_factor  = 40
+	history={
+		owner = ELF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory       = 21
+			synthetic_refinery = 10
+			fuel_silo         = 10
+		}
+		add_core_of = ELF
+		victory_points = {
+			7789 1
+		}
+		
+	}
+
+	provinces={
+		1674 1718 1765 1824 4681 4767 4827 7655 7789 7793 7849 7861 10529 10613 10617 10673 10686 12174 12510 12536 12599 
+	}
+}

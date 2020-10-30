@@ -1,0 +1,103 @@
+focus_tree = {
+id = UKR_F
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UKR
+		}
+	}
+	default = no
+	#Переорганизация
+     focus = {
+	 id = UKR_org
+	 y = 0
+	 x = 8
+	 icon = FFF
+	 available = {
+	 }
+	 cost = 5
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 #АТО в крыму
+	 
+	 focus = {
+	 
+	 id = UKR_ato_crimea
+	 y = 2
+	 x = 5
+	 icon = FFF
+	 prerequisite = {focus = UKR_org}
+	 available = {
+	 }
+	 cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 country_event = { 
+    id = pavu.2
+    days = 3    
+}
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }	 
+	 }
+	 
+	 #АТО на востоке
+	 focus = {
+	
+	 id = UKR_ato_wosotk
+	 y = 2
+	 x = 8
+	 icon = FFF
+	 prerequisite = {focus = UKR_org}
+	 available = {
+	 }
+	 cost = 12
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	  country_event = { 
+    id = pavu.3
+    days = 3    
+}
+	 }
+	 ai_will_do = {
+	 factor = 6
+	 }	 
+	 }
+	 
+	 #Переорганизация армии
+	 focus = {
+	 
+	 id = UKR_armyorg
+	 y = 2
+	 x = 11
+	 icon = FFF
+	 prerequisite = {focus = UKR_org}
+	 available = {
+	 }
+	 cost = 5
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 8
+	 }
+	 }
+	 
+}

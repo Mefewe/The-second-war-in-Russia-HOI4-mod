@@ -1,0 +1,35 @@
+state={
+	id=813
+	name="STATE_813"
+	manpower = 11935992
+	
+	state_category = megalopolis
+	resources={
+		steel=3 # was: 28
+	}
+
+	history={
+		owner = RNR
+		victory_points = {
+			13238 1 
+		}
+		victory_points = {
+			6380 60 
+		}
+		#victory_points = {
+		#	13239 15
+		#}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 8
+		}
+		add_core_of = RNR	
+        add_core_of = ELF		
+	}
+
+	provinces={
+		6380 13238
+	}
+}

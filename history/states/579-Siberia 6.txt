@@ -1,0 +1,23 @@
+
+state={
+	id=579
+	name="STATE_579" # Salekhard
+	manpower = 45484
+	buildings_max_level_factor  = 20
+	state_category = wasteland
+
+	history={
+		owner = ELF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 10
+			nuclear_reactor = 1
+		}
+		add_core_of = ELF
+	}
+
+	provinces={
+		1664 1684 3169 4669 7689 7738 8461 9142 
+	}
+}

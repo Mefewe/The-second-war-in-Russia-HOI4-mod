@@ -1,0 +1,7 @@
+ELF="countries/UnitedRightFront.txt"
+RNR="countries/RussianNaziRep.txt"
+UKR="countries/Ukraine.txt"
+CRM="countries/Crimea.txt"
+DNR="countries/DonetsckRep.txt"
+LNR="countries/LyganskRep.txt"
+CHE="countries/Chechnya.txt"

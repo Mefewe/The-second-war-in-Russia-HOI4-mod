@@ -1,0 +1,26 @@
+state={
+	id=820
+	name="STATE_820"
+	manpower = 1658292
+	
+	state_category = megapolis
+	
+	resources={
+		oil=19 # was: 26
+	}
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 4
+		}		
+		victory_points = {
+			13236 3 
+		}
+		add_core_of = CHE
+	}
+
+	provinces={
+		13236 13237 3672
+	}
+}

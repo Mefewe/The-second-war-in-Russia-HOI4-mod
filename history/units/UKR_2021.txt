@@ -1,0 +1,166 @@
+division_template = {
+	name = "BMP infarty"		# Основной тип - BMP
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	
+	}
+}
+division_template = {
+	name = "BTR infarty"		# Основной тип - BTR
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	
+	}
+}
+division_template = {
+	name = "TANK brigade"		# Основной тип - T 90
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+units = {
+	#БТР
+	division = { 		
+		name = "1 BTR division"
+		location = 9479 # Edinburgh
+		division_template = "BTR infarty"
+		start_experience_factor = 0.3   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.43    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	#БМП
+	division = { 		
+		name = "1 BMP division"
+		location = 525 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 0.7   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.8    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 		
+		name = "2 BMP division"
+		location = 588 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 0.1   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.7    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 		
+		name = "3 BMP division"
+		location = 9556 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 0.95   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1.0    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 		
+		name = "4 BMP division"
+		location = 486 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.92    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 		
+		name = "5 BMP division"
+		location = 11541 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.6    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 		
+		name = "6 BMP division"
+		location = 3722 # Edinburgh
+		division_template = "BMP infarty"
+		start_experience_factor = 1.7   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.3    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	#ТАНКИ
+	division = { 	
+		name = "1 TANK division"
+		location = 11541 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.3   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1.0    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "2 TANK division"
+		location = 418 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.4   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 1.0    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "3 TANK division"
+		location = 9718 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.9    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "4 TANK division"
+		location = 525 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.1   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.8    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "5 TANK division"
+		location = 9531 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.9    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "6 TANK division"
+		location = 737 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.6   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.5    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "7 TANK division"
+		location = 11405 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.4   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.6    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+	division = { 	
+		name = "8 TANK division"
+		location = 11670 # Edinburgh
+		division_template = "TANK brigade"
+		start_experience_factor = 0.3   #optional, otherwise starts with 0 expereince
+		start_equipment_factor = 0.8    #optional, otherwise starts with equipment factor of 1 (maximum)
+	}
+}

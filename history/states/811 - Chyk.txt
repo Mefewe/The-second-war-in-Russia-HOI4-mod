@@ -1,0 +1,26 @@
+state={
+	id=811
+	name="STATE_811" 
+	
+	history={
+		owner = ELF
+		buildings = {
+			infrastructure = 1
+			13204 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = ELF
+
+	}
+
+	provinces={
+		10540 13204 5264 4744 13063 1819 4455 13062
+	}
+	manpower=100364
+	resources={		
+		steel=5
+	}
+	buildings_max_level_factor=4
+	state_category=rural
+}

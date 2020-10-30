@@ -1,0 +1,96 @@
+add_namespace = npav
+##Евент  красных в РНР 1##
+news_event={
+id = npav.1
+title = npav.1.t
+desc = npav.1.d
+picture = GFX_AYE
+fire_only_once = yes
+major = yes
+
+trigger = {
+ OR ={ 
+#check_variable = { var = party_popularity@communism  value = 0.60  compare = more_than }
+#check_variable = { var = party_popularity@collectivism  value = 0.68  compare = more_than }
+check_variable = {RNR.party_popularity@communism   > 0.59  }
+check_variable = {RNR.party_popularity@collectivism > 0.67 }
+ }
+}
+
+mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = npav.1.a
+		trigger = {			
+		}
+		state_event = { 
+		id = npav.2
+		days = 1 
+		trigger_for = RNR
+		}
+	}		
+}	
+##Внутренний ивент при коммунистах в РНР.
+country_event={
+id = npav.2
+title = npav.2.t
+desc = npav.2.d
+picture = GFX_AYE2
+fire_only_once = yes
+
+trigger={
+TAG = RNR
+OR ={
+check_variable = { RNR.party_popularity@communism   > 0.59  }
+check_variable = { RNR.party_popularity@collectivism > 0.67 }
+	}
+}
+mean_time_to_happen = {
+		days = 2
+	}
+	option={
+	name = npav.2.a
+	trigger={
+	}
+	ai_chance = {factor = 92}	 
+	 ELF = {
+	 country_event = { 
+    id = npav.3
+    days = 1    
+}}
+	}
+	option={
+	name = npav.2.b
+	trigger{
+	TAG = RNR
+	}
+	ai_chance = {factor = 8}
+		ELF = {annex_country = {
+	target = RNR
+    transfer_troops = yes
+	}}
+	ELF = {change_tag_from = RNR}
+	}
+}
+country_event={
+id = npav.3
+title = npav.3.t
+desc = npav.3.d
+picture = GFX_AYE2
+fire_only_once = yes
+trigger
+{
+TAG = ELF
+OR = {
+check_variable = { RNR.party_popularity@communism   > 0.59  }
+check_variable = { RNR.party_popularity@collectivism > 0.67 }}
+}
+option={
+	name = npav.3.a
+	ai_chance = {factor = 100}
+	trigger={
+	}
+	load_oob = "ELF_2022"
+}
+}

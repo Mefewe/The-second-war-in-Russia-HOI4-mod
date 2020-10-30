@@ -1,0 +1,12 @@
+ELF ={
+		 male = {
+		 names = {Nikta Alexey Messer Nyix Maxim VolkAuf}
+		 }
+		 female{
+		 names = { Alla Brlla Misser Natasha Pi}
+		 }
+		 surnames = { Iderov Yudin Fiksanov Ayfer Gegog Zizanik
+		 }
+		 callsigns = {odinadcatiy11 offnik ayeshnik molot gebbels nacik}
+}
+		 

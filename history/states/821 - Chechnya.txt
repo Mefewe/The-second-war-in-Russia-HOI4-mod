@@ -1,0 +1,23 @@
+state={
+	id=821
+	name="STATE_821"
+	manpower = 1658292
+	
+	state_category = city
+	
+	resources={
+		oil=19 # was: 26
+	}
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 4
+		}				
+		add_core_of = CHE
+	}
+
+	provinces={
+		11632 683 712 6730 728 6748
+	}
+}

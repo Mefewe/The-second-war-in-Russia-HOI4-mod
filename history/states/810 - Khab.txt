@@ -1,0 +1,31 @@
+
+state={
+	id=810
+	name="STATE_810"
+	manpower = 295605
+	resources={
+		chromium=2 # was: 12
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = ELF
+		victory_points = {
+			12189 30
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			air_base = 4
+			957 = {				
+				coastal_bunker = 5
+			}
+		}
+		add_core_of = ELF
+	}
+
+	provinces={
+	 12189 
+	}
+}

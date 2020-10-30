@@ -1,0 +1,28 @@
+ELF ={
+color = rgb{ 220 20 60}
+color_ui = rgb{ 65 125 245}
+} 
+RNR ={
+color = rgb{ 60 120 160}
+color_ui = rgb{ 65 225 215}
+} 
+UKR = {
+color = rgb{235 235 7}
+color_ui = rgb{20 17 14}
+}
+CRM = {
+color = rgb{155 207 202}
+color_ui = rgb{20 17 14}
+}
+LNR = {
+color = rgb{31 204 192}
+color_ui = rgb{30 27 17}
+}
+DNR = {
+color = rgb{82 27 11}
+color_ui = rgb{10 30 20}
+}
+CHE = {
+color = rgb{21 133 84}
+color_ui = rgb{66 66 66}
+}

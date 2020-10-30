@@ -1,0 +1,25 @@
+state={
+	id=808
+	name="STATE_808"
+	manpower = 31310
+	
+	state_category = rural
+	
+	resources={
+		oil=1 # was: 8
+		coal=2
+		steel=5
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		11047
+	}
+}
