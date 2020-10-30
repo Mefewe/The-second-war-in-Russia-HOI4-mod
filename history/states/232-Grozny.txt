@@ -13,6 +13,9 @@ state={
 		owner = CHE
 		buildings = {
 			infrastructure = 4
+			synthetic_refinery = 4
+			fuel_silo = 3
+			industrial_complex = 5
 		}		
 		victory_points = {
 			3668 3 
