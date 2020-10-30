@@ -73,11 +73,11 @@ set_technology = {
     }
 		add_equipment_to_stockpile = {
         type = modern_tank_equipment
-        amount = 14200
+        amount = 994
     }
 			add_equipment_to_stockpile = {
         type =  mechanized_equipment_2
-        amount = 900
+        amount = 1900
     }
 	add_equipment_to_stockpile = {
         type =  mechanized_equipment_3
