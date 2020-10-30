@@ -126,19 +126,20 @@ set_technology = {
 set_convoys = 147
 
 set_politics = {
-  ruling_party = neutrality
+  ruling_party = ismamism
   #ruling_party = democrati
   last_election = "2021.1.1"
   election_frequency= 48
-  elections_allowed = yes
+  elections_allowed = no
 }
 
 set_popularities = {
-  democratic = 10
-  fascism = 10
-neutrality = 73
-  communism = 2
-  collectivism = 5
+  democratic = 5
+  fascism = 5
+neutrality = 10
+  communism = 0
+  collectivism = 10
+  ismamism = 70
 }
 
 create_country_leader = {
@@ -146,7 +147,7 @@ create_country_leader = {
   desc = "AUFnuk"
   picture = "gfx/leaders/SHL/SHL_fascism.dds"
   expire = "2089.1.1"
-  ideology = centrism
+  ideology = radikal
   traits = { }
 }
 
