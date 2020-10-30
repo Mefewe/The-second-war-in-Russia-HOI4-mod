@@ -3,7 +3,7 @@ state={
 	name="STATE_820"
 	manpower = 1658292
 	
-	state_category = megapolis
+	state_category = megalopolis
 	
 	resources={
 		oil=19 # was: 26
