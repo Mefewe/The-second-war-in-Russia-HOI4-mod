@@ -3,7 +3,7 @@ color = rgb{ 220 20 60}
 color_ui = rgb{ 65 125 245}
 } 
 RNR ={
-color = rgb{ 60 120 160}
+color = rgb{ 68 0 99}
 color_ui = rgb{ 65 225 215}
 } 
 UKR = {
