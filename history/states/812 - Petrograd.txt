@@ -7,7 +7,7 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = SOV
+		owner = RRP
 		victory_points = {
 			3151 30.0
 		 }
@@ -22,7 +22,7 @@ state={
 				coastal_bunker = 5
 			}
 		}
-		add_core_of = SOV
+		add_core_of = RRP
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 1

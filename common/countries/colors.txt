@@ -26,3 +26,7 @@ CHE = {
 color = rgb{21 133 84}
 color_ui = rgb{66 66 66}
 }
+RRP = {
+	color = rgb{77 128 255}
+	color_ui = rgb{39 4 0}
+	}
