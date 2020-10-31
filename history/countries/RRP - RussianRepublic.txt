@@ -152,7 +152,7 @@ neutrality = 10
 }
 
 create_country_leader = {
-  name = "Ayef Easd"
+  name = "Nikita Erpov"
   desc = ""
   picture = "gfx/leaders/SHL/SHL_fascism.dds"
   expire = "2089.1.1"
@@ -161,8 +161,14 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-  name = "Mixey Aleikum"
+  name = "Nikita Erpov"
   picture = "gfx/leaders/SHL/SHL_mikhail.dds"
-  traits = { }
+  traits = { war_hero media_personality politically_connected infantry_officer}
+  skill = 5
+}
+create_field_marshal = {
+  name = "Alexey Navalny"
+  picture = "gfx/leaders/SHL/SHL_mikhail.dds"
+  traits = { politically_connected media_personality }
   skill = 5
 }
