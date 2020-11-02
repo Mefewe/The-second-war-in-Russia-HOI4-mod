@@ -64,7 +64,8 @@ set_technology = {
 	add_ideas = war_economy
 	add_ideas = service_by_requirement
 	#add_ideas = /
-	#add_ideas = /	
+	#add_ideas = /
+	add_ideas = promedol_op_nark	
  }
  2020.2.1
  {

@@ -8,43 +8,10 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
-		id = ELF01
-		text = ELF01
-		icon = GFX_goal_unknown
-		cost = 10,00
-		x = 9
-		y = 1
+	#Армия
+	focus ={
 
+		
 	}
-	focus = {
-		id = ELF02
-		text = ELF021
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = ELF01
-		}
-		mutually_exclusive = {
-			focus = ELF03
-		}
-		x = 7
-		y = 2
 
-	}
-	focus = {
-		id = ELF03
-		text = ELF031
-		icon = GFX_goal_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = ELF01
-		}
-		mutually_exclusive = {
-			focus = ELF02
-		}
-		x = 11
-		y = 2
-
-	}
 }
