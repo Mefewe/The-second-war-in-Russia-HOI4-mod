@@ -29,4 +29,8 @@ color_ui = rgb{66 66 66}
 RRP = {
 	color = rgb{77 128 255}
 	color_ui = rgb{39 4 0}
-	}
+}
+SRN = {
+	color = rgb{ 0 255 175}
+	color_ui = rgb{ 43 35 0 }
+}

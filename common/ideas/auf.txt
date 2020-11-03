@@ -46,7 +46,7 @@ available = {
 }
 
 default = yes
-picture = 
+picture = fdf
 modifier = {
 policy_power_gain=-0.4
 army_morale_factor = 0.1
@@ -64,7 +64,7 @@ factor = 1
 
 }
 	cancel_if_invalid = no
-}
+}	
 }
 ##идеалогическая##
 vechernii_mydozvon = {
@@ -123,7 +123,8 @@ ai_will_do = {
 
 factor = 1
 
-}}
+	}
+}
 
 nazi= {
 cost = 250
@@ -139,16 +140,17 @@ available = {
 }
 
 
-picture = 
+picture = н
 modifier = {
 policy_power_gain=-0.4
+fascism_drift = 0.02
+stability_weekly = -0.10
 }
 
 
 ai_will_do = {
-stability_weekly = -0.10
-factor = 1
-fascism_drift = 0.02
-}}
-}
+			factor = 1
+			}
+		}
+	}		
 }

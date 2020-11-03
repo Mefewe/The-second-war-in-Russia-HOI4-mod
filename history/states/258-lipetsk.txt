@@ -12,6 +12,8 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = RRP
+		add_core_of = ELF
+		add_core_of = RNR
 		victory_points = {
 			6398 1
 		}

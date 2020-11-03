@@ -53,14 +53,14 @@ units = {
 	}
 	division = { 	
 		name = "6st Bidlanskii otrad"
-		location = 6706 # Edinburgh
+		location = 9680  # Edinburgh
 		division_template = "Bidlo"
 		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
 		start_equipment_factor = 0.31    #optional, otherwise starts with equipment factor of 1 (maximum)
 	}
 	division = { 	
 		name = "7st Bidlanskii otrad"
-		location = 6706 # Edinburgh
+		location = 9680 # Edinburgh
 		division_template = "Bidlo"
 		start_experience_factor = 0.2   #optional, otherwise starts with 0 expereince
 		start_equipment_factor = 0.87    #optional, otherwise starts with equipment factor of 1 (maximum)

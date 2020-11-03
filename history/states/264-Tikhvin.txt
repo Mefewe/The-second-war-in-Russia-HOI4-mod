@@ -4,7 +4,7 @@ state={
 	name="STATE_264"
 	manpower = 185559
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = RRP
@@ -16,6 +16,8 @@ state={
 			air_base = 1
 		}
 		add_core_of = RRP
+		add_core_of = RNR
+		add_core_of = ELF
 	}
 
 	provinces={

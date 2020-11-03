@@ -2,10 +2,10 @@
 state={
 	id=218
 	name="STATE_218"
-	manpower = 1501076
+	manpower = 2501076
 	
-	state_category = city
-
+	state_category = megalopolis
+	buildings_max_level_factor = 40
 	history={
 		owner = RRP
 		victory_points = {
@@ -13,19 +13,19 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 7
+			industrial_complex = 8
+			fuel_silo = 4
+			synthetic_refinery = 5
 			air_base = 3
 			9417 ={
 				naval_base = 5
 			}
 		}
 		add_core_of = RRP
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
+		add_core_of = ELF
+		add_core_of = RNR
+		
 	}
 
 	provinces={

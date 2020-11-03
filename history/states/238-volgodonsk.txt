@@ -12,6 +12,8 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = RRP
+		add_core_of = ELF
+		add_core_of = RNR
 		victory_points = {
 			775 4 # City of Volgodonsk only founded in 1950 to service the new reservoir
 		}

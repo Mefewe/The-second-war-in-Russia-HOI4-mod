@@ -153,6 +153,10 @@ set_technology = {
     target = RNR
     type = annex_everything
 }
+declare_war_on = {
+    target = RRP
+    type = annex_everything
+}
  }
 set_convoys = 1040
 

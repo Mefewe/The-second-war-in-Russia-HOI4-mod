@@ -1,18 +1,17 @@
-capital = 813
-oob = "RNR_2021"
+capital = 218	
+oob = "SRN_2021"
 set_stability = 0.56
 set_war_support = 1.00
 set_research_slots = 3
 
 set_technology = {
-  infantry_weapons = 1
   tech_support = 1
   tech_recon = 1
   tech_engineers = 1
   motorised_infantry = 1
   marines = 1
   gw_artillery = 3
-  gwtank = 6
+  gwtank = 1
   basic_light_tank = 1
   cv_early_fighter = 1
   cv_CAS1 = 1
@@ -39,40 +38,63 @@ set_technology = {
   base_strike = 1
   synth_oil_experiments = 1
   
-  night_vision =1
-  support_weapons=1
-  support_weapons2=1
-  mechanised_infantry=1
-  mechanised_infantry1=1
-  mechanised_infantry2=1
-  mechanised_infantry3=1
+  night_vision = 1
+  support_weapons = 1
+  support_weapons2 = 1
+  mechanised_infantry = 1
+  mechanised_infantry1 = 1
+  mechanised_infantry2 = 1
+  mechanised_infantry3 = 1
+  infantry_weapons = 1
   infantry_weapons1 = 1
   infantry_weapons2 = 1
   infantry_weapons3 = 1
-  main_battle_tank=1
+  main_battle_tank = 1 
 }
  2020.1.1
  {
  add_equipment_to_stockpile = {
-
-        type = infantry_equipment_1
-
-        amount = 1000
-
+        type = infantry_equipment_3
+        amount = 9200
     }
-	#conscription = 3
+	add_equipment_to_stockpile = {
+        type = infantry_equipment_2
+        amount = 40000
+    }
+	add_equipment_to_stockpile = {
+        type = infantry_equipment_1
+        amount = 1000
+    }
+	 add_equipment_to_stockpile = {
+        type =  mechanized_equipment_3  
+        amount = 4000
+    }
+    add_equipment_to_stockpile = {
+      type =  modern_tank_equipment
+      amount = 200
+  }
+	#conscription = 3                   mechanized_equipment_3        
 	add_ideas = war_economy
 	add_ideas = service_by_requirement
 	#add_ideas = /
 	#add_ideas = /	
  }
+
  2020.2.1
  {
-
-  declare_war_on = {
-    target = RRP
-    type = annex_everything
+  set_technology
+	{
+  infantry_weapons2 = 1
+	popup = no
   }
+  set_technology
+	{
+  infantry_weapons3 = 1
+	popup = no
+  }
+
+
+
     set_technology
 	{
 	fuel_silos = 1
@@ -131,37 +153,31 @@ set_technology = {
 	}	
 
  }
-# 2020.3.4
- #{
- #declare_war_on = {
-   # target = ELF
-    #type = annex_everything
-#}
- #}
+
 set_convoys = 147
 
 set_politics = {
-  ruling_party = fascism
+  ruling_party = democratic
   #ruling_party = democrati
-  last_election = "2020.6.1"
+  last_election = "2019.6.1"
   election_frequency= 48
-  elections_allowed = no
+  elections_allowed = yes
 }
 
 set_popularities = {
-  democratic = 10
-  fascism = 88
+  democratic = 88
+  fascism = 10
 neutrality = 0
   communism = 2
   collectivism = 0
 }
 
 create_country_leader = {
-  name = "Andey Ykimelov"
-  desc = ""
+  name = "Almik Kuzbik"
+  desc = "AUFnuk"
   picture = "gfx/leaders/SHL/SHL_fascism.dds"
   expire = "2089.1.1"
-  ideology = nazism   
+  ideology = liberalism
   traits = { }
 }
 
