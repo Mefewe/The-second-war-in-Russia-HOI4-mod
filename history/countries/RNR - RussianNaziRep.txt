@@ -68,7 +68,7 @@ set_technology = {
  }
  2020.2.1
  {
-
+  add_ideas = panslavanizm
   declare_war_on = {
     target = RRP
     type = annex_everything
@@ -161,7 +161,7 @@ create_country_leader = {
   desc = ""
   picture = "gfx/leaders/SHL/SHL_fascism.dds"
   expire = "2089.1.1"
-  ideology = nazism   
+  ideology = fascism_ideology 
   traits = { }
 }
 

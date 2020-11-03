@@ -1,0 +1,16 @@
+ideas = {
+	country={
+		panslavanizm = {
+			picture = pansexual
+			removal_cost = -1
+			allowed = {
+
+			}
+			modifier = {
+				training_time_army_factor = -0.1
+				production_speed_buildings_factor = 0.15
+				political_power_gain = 1
+			}
+		}
+	}
+}

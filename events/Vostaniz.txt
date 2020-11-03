@@ -1,5 +1,5 @@
 add_namespace = lsd
-####Понадусеровск
+####Понадусеровск в РР
 country_event = {
 	id = lsd.1
 	title= lsd.1.t
@@ -32,6 +32,25 @@ country_event = {
 	}
 	option = {
 		name = lsd.1.b
+			ai_chance = {factor = 0}
+			trigger={
+	
+			}	
+			218 = {			
+				add_core_of = SRN
+			}
+			SRN = {
+				#set_state_owner = 218
+				transfer_state	= 218
+				set_capital = 218
+			}
+			SRN = {change_tag_from = RRP}
+			hidden_effect = {			
+				news_event = { days = 1 id = lsd.2 }
+			}
+		}
+	option = {
+		name = lsd.1.c
 			ai_chance = {factor = 20}
 			trigger={
 	
@@ -51,4 +70,33 @@ country_event = {
 				news_event = { days = 1 id = lsd.3 }
 			}
 		}
+}
+#СРН новость
+news_event={
+	id=lsd.2
+	title=lsd.2.t
+	desc=lsd.2.d
+	fire_only_once = yes
+	major=yes
+	is_triggered_only = yes
+
+		immediate = { 		
+			NOT = {
+				 RRP = {
+					 has_war_with = SRN 
+					}
+				}		
+			AND = {
+				SRN = {
+					controls_state = 218 
+			}
+		}		
+	}
+	option = {
+		name = lsd.2.a
+		trigger = {
+			
+		}
+	}
+
 }

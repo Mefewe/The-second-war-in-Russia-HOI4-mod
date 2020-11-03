@@ -18,7 +18,7 @@ available = {
 
 picture = ghgh
 modifier = {
-policy_power_gain=-0.4
+	political_power_cost = 0.4
 stability_factor = 0.3
 party_popularity_stability_factor = 0.02
 enemy_partisan_effect = -0.16
@@ -48,7 +48,7 @@ available = {
 default = yes
 picture = fdf
 modifier = {
-policy_power_gain=-0.4
+	political_power_cost =0.4
 army_morale_factor = 0.1
 conscription = 0.05
 enemy_partisan_effect = -0.06
@@ -80,14 +80,16 @@ cancel_if_invalid = no
 level = 1
 
 available = {
-
+NOT = {
+	has_government = collectivism
+}
 }
 
 
 	picture = ddd
 	modifier = {
-		policy_power_gain=-0.4
-		stability_weekly = -0.08
+		political_power_cost =0.4
+		stability_weekly = -0.06
 		collectivism_drift = 0.02
 	}
 
@@ -107,14 +109,16 @@ cancel_if_invalid = no
 level = 1
 
 available = {
-
+NOT = {
+	has_government = democratic
+}
 }
 
 
 picture = g
 modifier = {
-stability_weekly = -0.04
-policy_power_gain=-0.4
+stability_weekly = -0.05
+political_power_cost =0.4
 democratic_drift = 0.02
 }
 
@@ -136,15 +140,17 @@ cancel_if_invalid = no
 level = 1
 
 available = {
-
+	NOT = {
+	has_government =  fascism
+	}
 }
 
 
 picture = н
 modifier = {
-policy_power_gain=-0.4
+	political_power_cost =0.4
 fascism_drift = 0.02
-stability_weekly = -0.10
+stability_weekly = -0.06
 }
 
 
