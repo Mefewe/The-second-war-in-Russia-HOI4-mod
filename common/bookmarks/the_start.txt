@@ -15,7 +15,18 @@ bookmarks = {
 			focuses = {
 				
 			}
-		}		
+		}	
+		
+		"RRP"={
+			history = "RRP_DESC_2021"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"RNR"={
 			history = "RNR_DESC_2021"
 			ideology = fascism
@@ -25,6 +36,52 @@ bookmarks = {
 			focuses = {
 				
 			}
-		}		
+		}	
+
+		
+
+		"UKR"={
+			#minor = yes
+			history = "UKR_DESC_2021"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"DNR"={
+			#minor = yes
+			history = "DNR_DESC_2021"
+			ideology = neutrality
+		}
+
+		"LNR"={
+			#minor = yes
+			history = "LNR_DESC_2021"
+			ideology = neutrality
+		}
+
+		"CRM"={
+			minor = yes
+			history = "CRM_DESC_2021"
+			ideology = neutrality
+		}
+
+		"CHE"={
+			#minor = yes
+			history = "CHE_DESC_2021"
+			ideology = ismamism
+		}
+		"SRN"={
+			minor = yes
+			history = "OTHER_DESC_2021"
+			ideology = democratic
+		}	
+		"---"={
+			history = "OTHER_BLITZKFRIEG_DESC"
+		}
 	}
 }

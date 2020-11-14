@@ -1,0 +1,17 @@
+ideas = {
+	country={
+		neorganizovannost = {
+			picture = ebanashka
+			removal_cost = -1
+			allowed = {
+          
+			}
+			
+			modifier = {
+				planning_speed = -1.0
+				training_time_army_factor = 10.00				
+				experience_gain_army_factor = -0.2
+			}
+		}
+	}
+}

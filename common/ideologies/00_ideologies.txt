@@ -12,8 +12,8 @@ ideologies = {
      "FACTION_LOLM_2"
    }
    color = { 71 23 32 }
-   war_impact_on_world_tension = 8.1
-   faction_impact_on_world_tension = 2.2
+   war_impact_on_world_tension = 0.1
+   faction_impact_on_world_tension = 0.2
    rules = {
      can_force_government = yes
      can_send_volunteers = yes

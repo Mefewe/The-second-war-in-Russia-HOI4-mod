@@ -1,6 +1,6 @@
-capital = 813
-oob = "RNR_2021"
-set_stability = 0.56
+capital = 809
+oob = "KRV_2021"
+set_stability = 0.36
 set_war_support = 1.00
 set_research_slots = 3
 
@@ -53,27 +53,18 @@ set_technology = {
 }
  2020.1.1
  {
-  add_ideas = oscoloc
  add_equipment_to_stockpile = {
-
-        type = infantry_equipment_1
-
-        amount = 1000
-
+        type = infantry_equipment_3
+        amount = 10000
     }
 	#conscription = 3
-	add_ideas = war_economy
-	add_ideas = service_by_requirement
+	add_ideas = tot_economic_mobilisation
+	add_ideas = scraping_the_barrel
 	#add_ideas = /
 	#add_ideas = /	
  }
  2020.2.1
  {
-  add_ideas = panslavanizm
-  declare_war_on = {
-    target = RRP
-    type = annex_everything
-  }
     set_technology
 	{
 	fuel_silos = 1
@@ -132,37 +123,30 @@ set_technology = {
 	}	
 
  }
-# 2020.3.4
- #{
- #declare_war_on = {
-   # target = ELF
-    #type = annex_everything
-#}
- #}
 set_convoys = 147
 
 set_politics = {
-  ruling_party = fascism
+  ruling_party = democratic
   #ruling_party = democrati
-  last_election = "2020.6.1"
+  last_election = "2021.1.1"
   election_frequency= 48
-  elections_allowed = no
+  elections_allowed = yes
 }
 
 set_popularities = {
-  democratic = 10
-  fascism = 88
-neutrality = 0
-  communism = 2
-  collectivism = 0
+  democratic = 45
+  fascism = 15
+neutrality = 10
+  communism = 10
+  collectivism = 20
 }
 
 create_country_leader = {
-  name = "Kirill Ekorinskii"
-  desc = ""
+  name = "XXXX ZZZZ"
+  desc = "AUFnuk"
   picture = "gfx/leaders/SHL/SHL_fascism.dds"
   expire = "2089.1.1"
-  ideology = fascism_ideology 
+  ideology = centrism
   traits = { }
 }
 

@@ -75,7 +75,11 @@ set_technology = {
   }
 	#conscription = 3                   mechanized_equipment_3        
 	add_ideas = war_economy
-	add_ideas = service_by_requirement
+  add_ideas = service_by_requirement
+
+  add_ideas = molodoye_gos_ua
+
+  
 	#add_ideas = /
 	#add_ideas = /	
  }

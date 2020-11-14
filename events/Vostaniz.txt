@@ -67,7 +67,7 @@ country_event = {
 				generator = { 218 }
 			}	
 			hidden_effect = {			
-				news_event = { days = 1 id = lsd.3 }
+				news_event = { days = 1 id = lsd.2 }
 			}
 		}
 }
@@ -76,22 +76,12 @@ news_event={
 	id=lsd.2
 	title=lsd.2.t
 	desc=lsd.2.d
-	fire_only_once = yes
+	#fire_only_once = yes
 	major=yes
 	is_triggered_only = yes
-
-		immediate = { 		
-			NOT = {
-				 RRP = {
-					 has_war_with = SRN 
-					}
-				}		
-			AND = {
-				SRN = {
-					controls_state = 218 
+	immediate = { 					
+				
 			}
-		}		
-	}
 	option = {
 		name = lsd.2.a
 		trigger = {

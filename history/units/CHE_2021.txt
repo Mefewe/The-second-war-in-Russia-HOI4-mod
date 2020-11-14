@@ -1,0 +1,143 @@
+division_template = {
+	name = "Mohahedovdii armii"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+
+		infantry= { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 
+        engineer = { x = 0 y = 2 } 		
+	}
+}
+division_template = {
+	name = "Inhibitorskii alejor"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }	
+		infantry = { x = 1 y = 2 }	
+
+		infantry = { x = 2 y = 0 }	
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		
+	}
+}
+units = {
+########################################### Грозный
+	division = {
+		name = "1 partizanskii moj imeni Dydaeva"
+		
+		location = 13236
+		division_template = "Mohahedovdii armii"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "2 partizanskii moj imeni Dydaeva"
+		
+		location = 13236
+		division_template = "Mohahedovdii armii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "3 partizanskii moj imeni Dydaeva"
+		
+		location = 3672
+		division_template = "Mohahedovdii armii"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "4 partizanskii moj imeni Dydaeva"
+		
+		location = 13237
+		division_template = "Mohahedovdii armii"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.3
+
+	}
+####################################################
+division = {                                       #
+	name = "5 partizanskii moj imeni Dydaeva"      #
+	                                               #
+	location = 3668                                #
+	division_template = "Mohahedovdii armii"       #
+	start_experience_factor = 1.2                  #
+	start_equipment_factor = 0.8                   #
+                                                   #
+}                                                  #
+####################################################
+
+division = {
+	name = "1 partizanskii division"
+	
+	location = 3698
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.6
+	start_equipment_factor = 0.8
+
+}
+division = {
+	name = "2 partizanskii division"
+	
+	location = 9663
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.7
+	start_equipment_factor = 0.4
+
+}
+division = {
+	name = "3 partizanskii division"
+	
+	location = 11647
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+
+}
+division = {
+	name = "4 partizanskii division"
+	
+	location = 6721
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.7
+	start_equipment_factor = 1.0
+
+}
+division = {
+	name = "5 partizanskii division"
+	
+	location = 6692
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.78
+	start_equipment_factor = 0.6
+
+}
+division = {
+	name = "6 partizanskii division"
+	
+	location = 9632
+	division_template = "Inhibitorskii alejor"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.4
+
+}
+}

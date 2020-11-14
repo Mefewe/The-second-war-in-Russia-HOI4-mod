@@ -1,0 +1,57 @@
+bookmarks = {
+	bookmark = {
+		name = "REV_NAME"
+		desc = "REV_DESC"
+		date = 2020.7.2.12
+		picture = "GFX_select_date_2020"
+		default_country = "ELF"
+		default = yes		
+		"ELF"={
+			history = "ELF_DESC_2020"
+			ideology = collectivism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}	
+		
+		
+		
+
+		"UKR"={
+			#minor = yes
+			history = "UKR_DESC_2020"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"DNR"={
+			#minor = yes
+			history = "DNR_DESC_2020"
+			ideology = neutrality
+		}
+
+		"LNR"={
+			#minor = yes
+			history = "LNR_DESC_2020"
+			ideology = neutrality
+		}
+
+		"CRM"={
+			minor = yes
+			history = "CRM_DESC_2020"
+			ideology = neutrality
+		}
+		
+		"---"={
+			history = "OTHER_BLITZKFRfIEG_DESC"
+		}
+	}
+}

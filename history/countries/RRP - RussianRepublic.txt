@@ -62,7 +62,8 @@ set_technology = {
     }
 	#conscription = 3
 	add_ideas = war_economy
-	add_ideas = service_by_requirement
+  add_ideas = service_by_requirement
+  add_ideas = oscoloc
 	#add_ideas = /
 	#add_ideas = /	
  }

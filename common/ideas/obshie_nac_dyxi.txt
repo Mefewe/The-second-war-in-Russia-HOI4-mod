@@ -17,5 +17,42 @@ ideas = {
 				defence = -0.17
 			}
 		}
+		oscoloc = {
+			picture = oscoloc
+			removal_cost = -1
+			allowed = {
+
+			}
+			
+			modifier = {
+				production_factory_start_efficiency_factor = -0.08
+				production_factory_max_efficiency_factor = -0.15
+				political_power_cost = 0.18
+				stability_factor = -0.20
+			}
+		}
+		nas_ussr = {
+			picture = ussr_dyx
+			removal_cost = -1
+			allowed = {
+
+			}
+			modifier = { 
+				political_power_cost = -0.10
+			}
+
+		}
+		molodoye_gos_ua = {
+			picture = gov_ua
+			removal_cost = -1
+			allowed = {
+
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+
+		}
 	}
 }

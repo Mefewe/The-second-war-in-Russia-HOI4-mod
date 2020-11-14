@@ -59,7 +59,9 @@ set_technology = {
     }
 	#conscription = 3
 	add_ideas = tot_economic_mobilisation
-	add_ideas = scraping_the_barrel
+  add_ideas = scraping_the_barrel
+  
+  add_ideas = molodoye_gos_ua
 	#add_ideas = /
 	#add_ideas = /	
  }

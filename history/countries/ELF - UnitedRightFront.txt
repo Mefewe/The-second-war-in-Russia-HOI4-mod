@@ -13,7 +13,7 @@ set_technology = {
   marines = 1
   gw_artillery = 3
   gwtank = 6
-  basic_light_tank = 
+  basic_light_tank = 1
   cv_early_fighter = 1
   cv_CAS1 = 1
   cv_naval_bomber1 = 1
@@ -66,6 +66,17 @@ set_technology = {
 	#add_ideas = /
 	#add_ideas = /
 	add_ideas = promedol_op_nark	
+
+	add_ideas = nas_ussr
+	##
+	add_ideas = neorganizovannost
+	##
+	add_ideas = oscoloc
+ }
+
+ 2020.12.30
+ {
+	remove_ideas = neorganizovannost
  }
  2020.2.1
  {

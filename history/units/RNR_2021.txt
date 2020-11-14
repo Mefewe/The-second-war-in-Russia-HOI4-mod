@@ -1,0 +1,426 @@
+division_template = {
+	name = "Standart division"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 
+        engineer = { x = 0 y = 2 } 		
+	}
+}
+division_template = {
+	name = "Partizabe"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }	
+	}
+	support = {
+		artillery = { x = 0 y = 0}
+	}
+}
+units = {
+	################################
+	division = {
+		name = "1 division"
+		
+		location = 6380
+		division_template = "Standart division"
+		start_experience_factor = 1.9
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "2 division"
+		
+		location = 13238
+		division_template = "Standart division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3 division"
+		
+		location = 13239
+		division_template = "Standart division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "4 division"
+		
+		location = 11154
+		division_template = "Standart division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.62
+	}
+	division = {
+		name = "5 division"
+		
+		location = 6368
+		division_template = "Standart division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "6 division"
+		
+		location = 9273
+		division_template = "Standart division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "7 division"
+		
+		location = 9273
+		division_template = "Standart division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "8 division"
+		
+		location = 9273
+		division_template = "Standart division"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+
+	}
+	################
+	division = {
+		name = "3451 division"
+		
+		location = 401
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "4451 division"
+		
+		location = 3327
+		division_template = "Partizabe"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "3461 division"
+		
+		location = 3176
+		division_template = "Partizabe"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "34351 division"
+		
+		location = 6056
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "34351 division"
+		
+		location = 6056
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "34351 division"
+		
+		location = 6056
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "34561 division"
+		
+		location = 6167
+		division_template = "Partizabe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "34551 division"
+		
+		location = 11166
+		division_template = "Partizabe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "3451 div7ision"
+		
+		location = 9188
+		division_template = "Partizabe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "34251 division"
+		
+		location =6143
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		name = "34251 division"
+		
+		location =6143
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		name = "34251 division"
+		
+		location =6143
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		name = "348551 division"
+		
+		location = 12
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "345231 division"
+		
+		location = 6149
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "345231 division"
+		
+		location = 6149
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "345231 division"
+		
+		location = 6149
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "344651 division"
+		
+		location = 11286
+		division_template = "Partizabe"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345341 division"
+		
+		location = 11255
+		division_template = "Partizabe"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "345211 division"
+		
+		location = 6539
+		division_template = "Partizabe"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "228 division"
+		
+		location = 9312
+		division_template = "Partizabe"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345231 division"
+		
+		location = 6149
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "345231 division"
+		
+		location = 6149
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "347551 division"
+		
+		location = 401
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "345123 division"
+		
+		location = 11250
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "347551 division"
+		
+		location = 497
+		division_template = "Partizabe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "345121 division"
+		
+		location = 9473
+		division_template = "Partizabe"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345121 division"
+		
+		location = 9473
+		division_template = "Partizabe"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345121 division"
+		
+		location = 9473
+		division_template = "Partizabe"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345671 division"
+		
+		location = 11286
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "3490651 division"
+		
+		location = 6308
+		division_template = "Partizabe"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "340951 division"
+		
+		location = 3216
+		division_template = "Partizabe"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "345167 division"
+		
+		location = 6323
+		division_template = "Partizabe"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "346751 division"
+		
+		location = 11375
+		division_template = "Partizabe"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "347651 division"
+		
+		location = 11225
+		division_template = "Partizabe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "3467851 division"
+		
+		location = 121
+		division_template = "Partizabe"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+
+	}
+}

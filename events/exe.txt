@@ -1,0 +1,96 @@
+add_namespace = cannabis
+###Чечня 199999999999999 ЕЛФ РНР
+country_event = {
+	id = cannabis.1
+	title = cannabis.1.t
+	desc = cannabis.1.d
+	picture = GFX_AYE
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			TAG = RNR
+			#TAG = ELF
+		}
+		AND = {
+			DATE > 2021.1.4
+		}
+	}
+	option = {
+		name = cannabis.1.a
+		ai_chance = {factor = 100}
+		trigger = {
+			
+		}
+		declare_war_on = {
+			target = CHE
+			type = annex_everything
+			}	
+	}
+}
+
+country_event = {
+	id = cannabis.2
+	title = cannabis.2.t
+	desc = cannabis.2.d
+	picture = GFX_AYE
+	fire_only_once = yes
+	trigger = {		
+		AND = {
+			DATE > 2021.1.4
+			TAG = RRP
+		}
+	}
+	option = {
+		name = cannabis.2.a
+		ai_chance = {factor = 5}
+		trigger = {
+			
+		}
+		declare_war_on = {
+			target = CHE
+			type = annex_everything
+			}	
+	}
+	option = {
+		name = cannabis.2.b
+		ai_chance = {factor = 95}
+		trigger = {
+			
+		}	
+		RRP = {
+			give_guarantee = CHE
+			give_military_access = CHE
+		}
+		CHE =	{
+			give_military_access = RRP
+		}
+
+	}
+}
+country_event = {
+	id = cannabis.3
+	title = cannabis.3.t
+	desc = cannabis.3.d
+	picture = GFX_AYE
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			#TAG = RNR
+			TAG = ELF
+		}
+		AND = {
+			DATE > 2021.1.3
+		}
+	}
+	option = {
+		name = cannabis.3.a
+		ai_chance = {factor = 100}
+		trigger = {
+			
+		}
+		declare_war_on = {
+			target = CHE
+			type = annex_everything
+			}	
+	}
+}

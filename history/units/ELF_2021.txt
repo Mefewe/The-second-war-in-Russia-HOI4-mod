@@ -1,11 +1,12 @@
 division_template = {
-	name = "Test"		# Motor Rifle Division
+	name = "Standart division"		# Motor Rifle Division
 	division_names_group = SOV_MOT_01
 
 	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
 		mechanized = { x = 1 y = 0 }
 		mechanized = { x = 1 y = 1 }
 		mechanized = { x = 1 y = 2 }
@@ -27,35 +28,568 @@ division_template = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		
+		infantry = { x = 1 y = 1 }	
 	}
 	support = {
-
+		artillery = { x = 0 y = 0 }
 	}
 }
 units = {
 	division = {
-		#name = "Maymeneh Militia"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 6
-		}
+		name = "1 polk revolutii"
+		
 		location = 3000
-		division_template = "Test"
+		division_template = "Standart division"
+		start_experience_factor = 1.7
 		start_equipment_factor = 1.0
 
 	}
+	division = {
+		name = "2 e. polk revolutii"
+		
+		location = 198
+		division_template = "Standart division"
+		start_experience_factor = 1.7
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "1 ingibitorskii polk"
+		
+		location = 198
+		division_template = "Partizabe"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.6
+	}
+#резьба 1к1.0000000006
+division = {
+	name = "2 ingibitorskii polk"
+	
+	location = 6538
+	division_template = "Partizabe"
+	start_experience_factor = 1.8
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "Somali polk"
+	
+	location = 105
+	division_template = "Partizabe"
+	start_experience_factor = 4.9
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "4 ingibitorskii polk"
+	
+	location = 10207
+	division_template = "Partizabe"
+	start_experience_factor = 1.9
+	start_equipment_factor = 0.9
 }
 
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_0
-			creator = "ELF"
-		}
-		requested_factories = 1
-		progress = 0.28
-		efficiency = 100
-	}
+division = {
+	name = "4/1 ingibitorskii polk"
+	
+	location = 10207
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+}
+
+division = {
+	name = "4/2 ingibitorskii polk"
+	
+	location = 10207
+	division_template = "Partizabe"
+	start_experience_factor = 0.9
+	start_equipment_factor = 0.3
+}
+
+division = {
+	name = "4/3 ingibitorskii polk"
+	
+	location = 10207
+	division_template = "Partizabe"
+	start_experience_factor = 0.6
+	start_equipment_factor = 0.7
+}
+###
+division = {
+	name = "1 Reinocdvskii devision"
+	
+	location = 10207
+	division_template = "Standart division"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.86
+}
+division = {
+	name = "2 Reinocdvskii devision"
+	
+	location = 73
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "3 Reinocdvskii devision"
+	
+	location = 6110
+	division_template = "Standart division"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.4
+}
+division = {
+	name = "4 Reinocdvskii devision"
+	
+	location = 9180
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "5 Reinocdvskii devision"
+	
+	location = 3017
+	division_template = "Partizabe"
+	start_experience_factor = 2.9
+	start_equipment_factor = 1.0
+}
+
+division = {
+	name = "55 Reinocdvskii devision"
+	
+	location = 3017
+	division_template = "Partizabe"
+	start_experience_factor = 2.9
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "53 Reinocdvskii devision"
+	
+	location = 3017
+	division_template = "Partizabe"
+	start_experience_factor = 2.9
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "56 Reinocdvskii devision"
+	
+	location = 3017
+	division_template = "Partizabe"
+	start_experience_factor = 2.9
+	start_equipment_factor = 1.0
+}
+
+division = {
+	name = "6 Reinocdvskii devision"
+	
+	location = 11110
+	division_template = "Partizabe"
+	start_experience_factor = 0.9
+	start_equipment_factor = 0.5
+}
+division = {
+	name = "7 Reinocdvskii devision"
+	
+	location = 3004
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.8
+}
+division = {
+	name = "8 Reinocdvskii devision"
+	
+	location = 11200
+	division_template = "Standart division"
+	start_experience_factor = 1.1
+	start_equipment_factor = 0.3
+}
+division = {
+	name = "9 Reinocdvskii devision"
+	
+	location = 4298
+	division_template = "Partizabe"
+	start_experience_factor = 1.2
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "10 Reinocdvskii devision"
+	
+	location = 12500
+	division_template = "Standart division"
+	start_experience_factor = 1.9
+	start_equipment_factor = 0.1
+}
+division = {
+	name = "11 Reinocdvskii devision"
+	
+	location = 4383
+	division_template = "Partizabe"
+	start_experience_factor = 0.6
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "12 Reinocdvskii devision"
+	
+	location = 6246
+	division_template = "Partizabe"
+	start_experience_factor = 0.7
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "13 Reinocdvskii devision"
+	
+	location = 13076
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "14 Reinocdvskii devision"
+	
+	location = 9225
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+}
+
+division = {
+	name = "15 Reinocdvskii devision"
+	
+	location = 7712
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.7
+}
+division = {
+	name = "16 Reinocdvskii devision"
+	
+	location = 12502
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "17 Reinocdvskii devision"
+	
+	location = 227
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.2
+}
+division = {
+	name = "17 Reinocdvskii devision"
+	
+	location = 227
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.2
+}
+division = {
+	name = "17 Reinocdvskii devision"
+	
+	location = 227
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.2
+}
+division = {
+	name = "17 Reinocdvskii devision"
+	
+	location = 227
+	division_template = "Partizabe"
+	start_experience_factor = 0.4
+	start_equipment_factor = 0.2
+}
+division = {
+	name = "18 Reinocdvskii devision"
+	
+	location = 3004
+	division_template = "Partizabe"
+	start_experience_factor = 0.9
+	start_equipment_factor = 0.5
+}
+division = {
+	name = "19 Reinocdvskii devision"
+	
+	location = 11354
+	division_template = "Partizabe"
+	start_experience_factor = 0.7
+	start_equipment_factor = 0.99
+}
+division = {
+	name = "20 Reinocdvskii devision"
+	
+	location = 4400
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.7
+}
+division = {
+	name = "21 Reinocdvskii devision"
+	
+	location = 6383
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+}
+division = {
+	name = "22 Reinocdvskii devision"
+	
+	location = 9172
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+####
+division = {
+	name = "5 ingibitorskii polk"
+	
+	location = 154
+	division_template = "Partizabe"
+	start_experience_factor = 0.7
+	start_equipment_factor = 0.1
+}
+division = {
+	name = "6 ingibitorskii polk"
+	
+	location = 6177
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.1
+}
+division = {
+	name = "7 ingibitorskii polk"
+	
+	location = 11354
+	division_template = "Partizabe"
+	start_experience_factor = 0.7
+	start_equipment_factor = 0.6
+}
+division = {
+	name = "8 ingibitorskii polk"
+	
+	location = 6383
+	division_template = "Partizabe"
+	start_experience_factor = 0.6
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "9 ingibitorskii polk"
+	
+	location = 11149
+	division_template = "Partizabe"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.8
+}
+division = {
+	name = "10 ingibitorskii polk"
+	
+	location = 9445
+	division_template = "Partizabe"
+	start_experience_factor = 3.6
+	start_equipment_factor = 0.2
+}
+division = {
+	name = "11 ingibitorskii polk"
+	
+	location = 6424
+	division_template = "Partizabe"
+	start_experience_factor = 0.9
+	start_equipment_factor = 0.7
+}
+division = {
+	name = "12 ingibitorskii polk"
+	
+	location = 3330
+	division_template = "Partizabe"
+	start_experience_factor = 1.5
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "12 ingibitorskii polk"
+	
+	location = 3330
+	division_template = "Partizabe"
+	start_experience_factor = 1.5
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "12 ingibitorskii polk"
+	
+	location = 3330
+	division_template = "Partizabe"
+	start_experience_factor = 1.5
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "12 ingibitorskii polk"
+	
+	location = 3330
+	division_template = "Partizabe"
+	start_experience_factor = 1.5
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "13 ingibitorskii polk"
+	
+	location = 3357
+	division_template = "Partizabe"
+	start_experience_factor = 1.6
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "14 ingibitorskii polk"
+	
+	location = 8461
+	division_template = "Partizabe"
+	start_experience_factor = 1.6
+	start_equipment_factor = 0.8
+}
+division = {
+	name = "15 Lalx polk"
+	
+	location = 11879
+	division_template = "Partizabe"
+	start_experience_factor = 2.0
+	start_equipment_factor = 1.0
+}
+division = {
+	name = "16 ingibitorskii polk"
+	
+	location = 12446
+	division_template = "Partizabe"
+	start_experience_factor = 0.96
+	start_equipment_factor = 0.5
+}
+
+division = {
+	name = "17 ingibitorskii polk"
+	
+	location = 855
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "14 Reinocdvskii devision"
+	
+	location = 9225
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+}
+division = {
+	name = "143 Reinocdvskii devision"
+	
+	location = 9225
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+}
+division = {
+	name = "144 Reinocdvskii devision"
+	
+	location = 9225
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+}
+division = {
+	name = "145 Reinocdvskii devision"
+	
+	location = 9225
+	division_template = "Partizabe"
+	start_experience_factor = 0.5
+	start_equipment_factor = 0.6
+}
+division = {
+	name = "19 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "159 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "139 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "193 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "193 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+division = {
+	name = "193 ingibitorskii polk"
+	
+	location = 12189
+	division_template = "Partizabe"
+	start_experience_factor = 0.2
+	start_equipment_factor = 0.9
+}
+
 }

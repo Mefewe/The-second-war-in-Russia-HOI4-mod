@@ -15,10 +15,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
 	}	
 	###МОД
+	
 	spriteType = {
 		name = "GFX_idea_promedol_ad"
 		texturefile = "gfx/interface/ideas/idea_promedol_ad.tga"
-	}		
+	}
+	
 	###НЕ МОД
 	spriteType = {
 		name = "GFX_idea_generic_agrarian_society"

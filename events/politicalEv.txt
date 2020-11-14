@@ -94,3 +94,35 @@ option={
 	load_oob = "ELF_2022"
 }
 }
+
+сountry_event = {
+	id = npav.4
+	title = npav.4.t
+	desc = npav.4.d
+	picture = GFX_AYE2
+	fire_only_once = yes
+	trigger = {
+		TAG = RNR
+		date > 2020.10.1
+		date < 2021.1.1
+	}
+	option={
+		name = npav.4.a
+	ai_chance = {factor = 100}
+	trigger={
+	}
+	kill_country_leader = yes
+
+	create_country_leader = {
+		name = "Kirill Ekorinskii"
+		desc = ""
+		picture = ""
+		expire = "2965.1.1"
+		ideology = fascism_ideology 
+		traits = {
+			
+		}
+	}
+	}
+
+}

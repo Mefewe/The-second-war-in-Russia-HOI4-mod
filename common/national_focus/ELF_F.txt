@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ELF_F
+id = ELF_F
 	country = {
 		factor = 0
 		modifier = {
@@ -8,10 +8,226 @@ focus_tree = {
 		}
 	}
 	default = no
-	#Армия
-	focus ={
+	#Формирование ополчения
+	 focus = {
+	 id = ELF_opol
+     y = 0
+	 x = 8
+	 icon = FFF
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+     cost = 15
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 #Агитационные мероприятия
+	
+	 focus = {
+	
+	 id = ELF_agit
+         y = 1
+	 x = 7
+	 icon = FFF
+         prerequisite = {focus = ELF_opol}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+     cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
 
-		
+         #Оснащение отрядов
+	
+	 focus = {
+	
+	 id = ELF_osnas
+         y = 1
+	 x = 9
+	 icon = FFF
+         prerequisite = {focus = ELF_opol}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	          #Подтолкнуть людей на действия
+	
+	 focus = {
+	
+	 id = ELF_bunt1
+         y = 2
+	 x = 8
+	 icon = FFF
+         prerequisite = {focus = ELF_osnas}
+		 prerequisite = {focus = ELF_agit}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 3
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 	          #Сибирская рабочяя стачка
+	
+	 focus = {
+	
+	 id = ELF_bunt2
+         y = 3
+	 x = 8
+	 icon = FFF
+         prerequisite = {focus = ELF_bunt1}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 	 	          #Воспользоваться моментом
+	
+	 focus = {
+	
+	 id = ELF_bund
+         y = 4
+	 x = 8
+	 icon = FFF
+         prerequisite = {focus = ELF_bunt2}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 
+	 	 	 	          #Воспользоваться моментом
+	
+	 focus = {
+	
+	 id = ELF_bund
+         y = 4
+	 x = 8
+	 icon = FFF
+         prerequisite = {focus = ELF_bunt2}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 	 	 	 	          #Союз с ОРД
+	
+	 focus = {
+	
+	 id = ELF_ord
+         y = 6
+	 x = 6
+	 icon = FFF
+         prerequisite = {focus = ELF_bund}
+		 mutually_exclusive = {focus = ELF_ordnet}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+	 
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
+	 	 	 	          #Мы - единственная надежда
+	
+	 focus = {
+	
+	 id = ELF_ordnet
+         y = 6
+	 x = 10
+	 icon = FFF
+         prerequisite = {focus = ELF_bund}
+		 mutually_exclusive = {focus = ELF_ord}
+	 available = {
+	 is_subject = 0
+	 has_government = collectivism
+	 }
+         cost = 10
+	 select_effect = {
+	 }
+	 
+	 completion_reward = {
+	 
+	 }
+
+	 ai_will_do = {
+	 factor = 10
+	 }
+	 }
 	}
 
 }
